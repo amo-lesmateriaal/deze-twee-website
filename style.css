@@ -1,0 +1,308 @@
+
+h1 {
+	font-size: 4.2em;
+	margin-top: 0;
+  margin-bottom: 0px;
+	padding-top: 15px;
+  padding-bottom: 15px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+
+.section-main {
+
+  background: -webkit-linear-gradient(90deg, #606c88 10%, #3f4c6b 90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg, #606c88 10%, #3f4c6b 90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, #606c88 10%, #3f4c6b 90%); /* IE10 */
+  background:      -o-linear-gradient(90deg, #606c88 10%, #3f4c6b 90%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, #606c88 10%, #3f4c6b 90%); /* W3C */
+        
+}
+
+.section-canvas {
+
+  background: -webkit-linear-gradient(90deg, #DAD299 10%, #B0DAB9 90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg, #DAD299 10%, #B0DAB9 90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, #DAD299 10%, #B0DAB9 90%); /* IE10 */
+  background:      -o-linear-gradient(90deg, #DAD299 10%, #B0DAB9 90%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, #DAD299 10%, #B0DAB9 90%); /* W3C */
+        
+}
+
+.section-image {
+
+
+  background: -webkit-linear-gradient(90deg, #F09819 10%, #EDDE5D 90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg, #F09819 10%, #EDDE5D 90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, #F09819 10%, #EDDE5D 90%); /* IE10 */
+  background:      -o-linear-gradient(90deg, #F09819 10%, #EDDE5D 90%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, #F09819 10%, #EDDE5D 90%); /* W3C */
+        
+
+}
+
+.section-music {
+
+  background: -webkit-linear-gradient(90deg, #414d0b 10%, #727a17 90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg, #414d0b 10%, #727a17 90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, #414d0b 10%, #727a17 90%); /* IE10 */
+  background:      -o-linear-gradient(90deg, #414d0b 10%, #727a17 90%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, #414d0b 10%, #727a17 90%); /* W3C */
+        
+}
+
+.section-map {
+
+
+  background: -webkit-linear-gradient(90deg, #a73737 10%, #7a2828 90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg, #a73737 10%, #7a2828 90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, #a73737 10%, #7a2828 90%); /* IE10 */
+  background:      -o-linear-gradient(90deg, #a73737 10%, #7a2828 90%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, #a73737 10%, #7a2828 90%); /* W3C */
+
+	position: relative;
+}
+
+.profile img {
+  width: 100%;
+  height: auto;
+}
+
+#map-canvas {
+
+	min-height: 800px;
+
+	border: none;
+	border-top: 4px dashed #333;
+	border-bottom: 4px dashed #333;
+}
+
+#map-filter {
+
+	width: 58%;
+
+	position: absolute;
+
+	top: 120px;
+	left: 20%;
+
+	border-radius: 7px;
+
+	outline: none;
+
+	line-height: 35px;
+	padding: 0 15px;
+}
+
+.slide h2 {
+	
+	text-align: center;
+
+}
+
+.slide1 {
+
+	background: url('http://lorempixel.com/sport/1200/800');
+	background-size: cover;
+
+}
+
+.slide2 {
+
+	background: url('http://lorempixel.com/1200/801');
+	background-size: cover;
+
+}
+
+.slide3 {
+
+	background: url('http://lorempixel.com/1201/800');
+	background-size: cover;
+
+}
+
+
+.slide4 {
+
+	background: url('http://lorempixel.com/1200/802');
+	background-size: cover;
+
+
+}
+
+.section-main .row {
+	
+	margin-top: 50px;
+
+}
+
+
+
+/* 
+ * CANVAS SECTION
+ *
+ *
+ *
+ */
+.section-canvas .cborder{
+    margin: 100px auto 0px;
+    padding: 0px;
+    height: 480px;
+    width: 640px;
+    background: url(img/mrm862_silver.gif);
+    background-size: cover;
+    position: relative;
+}
+.section-canvas #canvas {
+ background: white;
+    position: absolute;
+    top: 86px;
+    left: 86px;
+    width: 468px;
+    height: 310px
+}
+
+
+
+
+/* 
+ *	MUSIC SECTION
+ *
+ *
+ *
+ */
+.buttons {
+	text-align: center;
+}
+
+.buttons button {
+	font-size: 3em;
+}
+
+#tracklist {
+	margin-top: 20px;
+	padding-left: 0px;
+}
+
+ .btn-play {
+ 	font-size: 15em;
+ 	margin: 0 auto;
+ 	display: block;
+ 	margin-bottom: 30px;
+ }
+
+ .range	{
+ 	
+ 	margin-bottom: 30px;
+ 	display: block;
+
+ }
+
+input[type=range] {
+  -webkit-appearance: none; /* Hides the slider so that custom slider can be made */
+  width: 100%; /* Specific width is required for Firefox. */
+}
+
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+}
+
+input[type=range]:focus {
+  outline: none; /* Removes the blue border. You should probably do some kind of focus styling for accessibility reasons though. */
+}
+
+input[type=range]::-ms-track {
+  width: 100%;
+  cursor: pointer;
+  background: transparent; /* Hides the slider so custom styles can be added */
+  border-color: transparent;
+  color: transparent;
+}
+
+/* Special styling for WebKit/Blink */
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 36px;
+  width: 16px;
+  border-radius: 3px;
+  background: #ffffff;
+  cursor: pointer;
+  margin-top: -14px; /* You need to specify a margin in Chrome, but in Firefox and IE it is automatic */
+}
+
+/* All the same stuff for Firefox */
+input[type=range]::-moz-range-thumb {
+ 
+  height: 36px;
+  width: 16px;
+  border-radius: 3px;
+  background: #ffffff;
+  cursor: pointer;
+}
+
+/* All the same stuff for IE */
+input[type=range]::-ms-thumb {
+
+  height: 36px;
+  width: 16px;
+  border-radius: 3px;
+  background: #ffffff;
+  cursor: pointer;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 8.4px;
+  cursor: pointer;
+  background: #3071a9;
+  border-radius: 1.3px;
+}
+
+input[type=range]:focus::-webkit-slider-runnable-track {
+  background: #367ebd;
+}
+
+input[type=range]::-moz-range-track {
+  width: 100%;
+  height: 8.4px;
+  cursor: pointer;
+  background: #3071a9;
+  border-radius: 1.3px;
+}
+
+input[type=range]::-ms-track {
+  width: 100%;
+  height: 8.4px;
+  cursor: pointer;
+  background: transparent;
+  border-color: transparent;
+  border-width: 16px 0;
+  color: transparent;
+}
+input[type=range]::-ms-fill-lower {
+  background: #2a6495;
+  border: 0.2px solid #010101;
+  border-radius: 2.6px;
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+}
+input[type=range]:focus::-ms-fill-lower {
+  background: #3071a9;
+}
+input[type=range]::-ms-fill-upper {
+  background: #3071a9;
+  border: 0.2px solid #010101;
+  border-radius: 2.6px;
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+}
+input[type=range]:focus::-ms-fill-upper {
+  background: #367ebd;
+}
+
+
+
+
+
+
+
+ /* END MUSIC SECTION */

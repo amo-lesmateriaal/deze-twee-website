@@ -1,0 +1,95 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Radius College | Wie van de drie?</title>
+	<link rel="stylesheet" type="text/css" href="node_modules/fullpage.js/jquery.fullPage.css">
+	<link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	
+	<div id="fullpage">
+		<div class="section section-main">
+			<div class="container-fluid">
+				<!-- EERSTE GEDEELTE HTML en CSS sectie -->
+
+                    <div class="container">
+
+                    </div>
+
+                <!-- EINDE EERSTE GEDEELTE -->
+			</div>
+		</div>
+		<div class="section section-image">
+		    <div class="slide slide1" data-anchor="slide1">
+		    	<h2>Slide 1</h2>	
+		    </div>
+		    <div class="slide slide2" data-anchor="slide2">
+		    	<h2>Slide 2</h2>
+		    </div>
+		    <div class="slide slide3" data-anchor="slide3">
+		    	<h2>Slide 3</h2>
+		    </div>
+		    <div class="slide slide4" data-anchor="slide4">
+		    	<h2>Slide 4</h2>
+		    </div>
+
+
+		</div>
+
+
+        <div class="section section-canvas">
+            <h1>Canvas Section</h1>
+            <div class="cborder">
+                <canvas id="canvas"></canvas>
+            </div>
+        </div>
+
+		<div class="section section-music">
+			<h1>Music Section</h1>
+			<div class="col-md-4 col-md-offset-4">
+				<div class="audio-player">
+					
+					<div class="row">
+					
+						<input type="range" value="0" id="slider" class="range" id="range" min="0" max="100">
+							
+					</div>
+					<div class="row buttons">	
+
+						<button class="btn btn-primary" id="btn-play"><span class="glyphicon glyphicon-play"></span></button>	
+						<button class="btn btn-primary" id="btn-stop"><span class="glyphicon glyphicon-stop"></span></button>
+						<button class="btn btn-primary" id="btn-forward"><span class="glyphicon glyphicon-forward"></span></button>
+						<button class="btn btn-primary" id="btn-rewind"><span class="glyphicon glyphicon-backward"></span></button>
+						<button class="btn btn-primary" id="btn-next"><span class="glyphicon glyphicon-step-forward"></span></button>
+						<button class="btn btn-primary" id="btn-prev"><span class="glyphicon glyphicon-step-backward"></span></button>
+						<button class="btn btn-primary" id="btn-pause" class="btn-pause"><span class="glyphicon glyphicon-pause"></span></button>
+					</div>
+
+						<ul id="tracklist">
+
+						</ul>
+
+				</div>
+			</div>
+		</div>
+		<div class="section section-map">
+			<h1>Map Section</h1>
+			<section id="map-canvas"></section>
+			<input id="map-filter" type="text" placeholder="Sexy search function">
+		</div>	
+	</div>
+
+	<script type="text/javascript" src="vendor/id3Reader/id3Reader.js"></script>
+	<script src="node_modules/jquery/dist/jquery.min.js"></script>
+	<script src="node_modules/fullpage.js/jquery.fullPage.js"></script>
+
+	<script src="scripts/audioplayer.js"></script>
+
+	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true"></script>
+	<script src="scripts/gmaps-lib.js"></script>
+	<script src="scripts/gmaps.js"></script>
+	<script src="scripts/canvas.js"></script>
+	<script src="main.js"></script>
+</body>
+</html>
